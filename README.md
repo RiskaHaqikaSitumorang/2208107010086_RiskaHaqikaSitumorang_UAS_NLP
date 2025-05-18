@@ -25,6 +25,7 @@ voice_chatbot_project/
 │
 ├── .env                   # Menyimpan Gemini API Key
 ├── requirements.txt       # Daftar dependensi Python
+├── voice_chat.log         # file log (catatan aktivitas)
 ```
 
 ## 📚 Catatan
