@@ -1,0 +1,1 @@
+# 2208107010086_RiskaHaqikaSitumorang_UAS_NLP
