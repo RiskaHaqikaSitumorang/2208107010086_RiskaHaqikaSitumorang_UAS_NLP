@@ -1,0 +1,24 @@
+2025-05-18 18:19:07,930 - INFO - Aplikasi starting up...
+2025-05-18 18:19:07,930 - INFO - Konfigurasi G2P - Model: C:\Users\senim\Documents\UAS-Praktikum-Pemrosesan-Bahasa-Alami\app\g2p\model.pt, Exists: False
+2025-05-18 18:19:07,930 - INFO - Konfigurasi G2P - Processor: C:\Users\senim\Documents\UAS-Praktikum-Pemrosesan-Bahasa-Alami\app\g2p\processor.json, Exists: False
+2025-05-18 18:19:12,680 - INFO - Aplikasi starting up...
+2025-05-18 18:19:12,681 - INFO - Konfigurasi G2P - Model: C:\Users\senim\Documents\UAS-Praktikum-Pemrosesan-Bahasa-Alami\app\g2p\model.pt, Exists: False
+2025-05-18 18:19:12,681 - INFO - Konfigurasi G2P - Processor: C:\Users\senim\Documents\UAS-Praktikum-Pemrosesan-Bahasa-Alami\app\g2p\processor.json, Exists: False
+2025-05-18 18:21:25,171 - INFO - Memulai voice-chat request. File: voice.wav, Size: 174678 bytes
+2025-05-18 18:21:25,172 - INFO - Memulai proses STT...
+2025-05-18 18:21:25,351 - INFO - Hasil STT: [ERROR] Whisper failed: Command '['C:\\Users\\senim\\Documents\\UAS-Praktikum-Pemrosesan-Bahasa-Alam...
+2025-05-18 18:21:25,352 - ERROR - Error dari STT: [ERROR] Whisper failed: Command '['C:\\Users\\senim\\Documents\\UAS-Praktikum-Pemrosesan-Bahasa-Alami\\app\\whisper.cpp\\build\\bin\\Release\\whisper-cli.exe', '-m', 'C:\\Users\\senim\\Documents\\UAS-Praktikum-Pemrosesan-Bahasa-Alami\\app\\models\\ggml-small.bin', '-f', 'C:\\Users\\senim\\AppData\\Local\\Temp\\tmpr_mgc256\\8b74ba66-7efc-432d-b65f-99cb5a91efd4.wav', '-otxt', '-of', 'C:\\Users\\senim\\AppData\\Local\\Temp\\tmpr_mgc256\\transcription.txt']' returned non-zero exit status 3.
+2025-05-18 18:21:25,352 - ERROR - STT error: [ERROR] Whisper failed: Command '['C:\\Users\\senim\\Documents\\UAS-Praktikum-Pemrosesan-Bahasa-Alami\\app\\whisper.cpp\\build\\bin\\Release\\whisper-cli.exe', '-m', 'C:\\Users\\senim\\Documents\\UAS-Praktikum-Pemrosesan-Bahasa-Alami\\app\\models\\ggml-small.bin', '-f', 'C:\\Users\\senim\\AppData\\Local\\Temp\\tmpr_mgc256\\8b74ba66-7efc-432d-b65f-99cb5a91efd4.wav', '-otxt', '-of', 'C:\\Users\\senim\\AppData\\Local\\Temp\\tmpr_mgc256\\transcription.txt']' returned non-zero exit status 3.
+Traceback (most recent call last):
+  File "C:\Users\senim\Documents\UAS-Praktikum-Pemrosesan-Bahasa-Alami\app\main.py", line 124, in voice_chat
+    raise Exception(text)
+Exception: [ERROR] Whisper failed: Command '['C:\\Users\\senim\\Documents\\UAS-Praktikum-Pemrosesan-Bahasa-Alami\\app\\whisper.cpp\\build\\bin\\Release\\whisper-cli.exe', '-m', 'C:\\Users\\senim\\Documents\\UAS-Praktikum-Pemrosesan-Bahasa-Alami\\app\\models\\ggml-small.bin', '-f', 'C:\\Users\\senim\\AppData\\Local\\Temp\\tmpr_mgc256\\8b74ba66-7efc-432d-b65f-99cb5a91efd4.wav', '-otxt', '-of', 'C:\\Users\\senim\\AppData\\Local\\Temp\\tmpr_mgc256\\transcription.txt']' returned non-zero exit status 3.
+2025-05-18 18:21:43,839 - INFO - Aplikasi starting up...
+2025-05-18 18:21:43,839 - INFO - Konfigurasi G2P - Model: C:\Users\senim\Documents\UAS-Praktikum-Pemrosesan-Bahasa-Alami\app\g2p\model.pt, Exists: False
+2025-05-18 18:21:43,839 - INFO - Konfigurasi G2P - Processor: C:\Users\senim\Documents\UAS-Praktikum-Pemrosesan-Bahasa-Alami\app\g2p\processor.json, Exists: False
+2025-05-18 18:23:30,316 - INFO - Aplikasi starting up...
+2025-05-18 18:23:30,316 - INFO - Konfigurasi G2P - Model: C:\Users\senim\Documents\UAS-Praktikum-Pemrosesan-Bahasa-Alami\app\g2p\model.pt, Exists: False
+2025-05-18 18:23:30,317 - INFO - Konfigurasi G2P - Processor: C:\Users\senim\Documents\UAS-Praktikum-Pemrosesan-Bahasa-Alami\app\g2p\processor.json, Exists: False
+2025-05-18 18:23:35,840 - INFO - Aplikasi starting up...
+2025-05-18 18:23:35,840 - INFO - Konfigurasi G2P - Model: C:\Users\senim\Documents\UAS-Praktikum-Pemrosesan-Bahasa-Alami\app\g2p\model.pt, Exists: False
+2025-05-18 18:23:35,840 - INFO - Konfigurasi G2P - Processor: C:\Users\senim\Documents\UAS-Praktikum-Pemrosesan-Bahasa-Alami\app\g2p\processor.json, Exists: False
